@@ -1,0 +1,28 @@
+.recommendations {
+  padding: 2rem;
+  border-top: 1px solid #ccc;
+
+  .recommendations-content {
+    display: none;
+    padding: 1rem;
+
+    &.active {
+      display: block;
+    }
+  }
+
+  .tabs {
+    display: flex;
+    margin-bottom: 1rem;
+
+    li {
+      list-style: none;
+      margin-right: 1rem;
+      cursor: pointer;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
