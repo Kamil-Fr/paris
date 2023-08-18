@@ -1,15 +1,15 @@
-import React from 'react';
 import '../scss/_navigation.scss';
-
+import aboutImage from '../images/1.png'
 
 function Navigation() {
     return (
         <nav className="navigation">
             <ul>
-                <li>Tab 1</li>
-                <li>Tab 2</li>
-                <li>Tab 3</li>
-                <li>Tab 4</li>
+                <li><img src={aboutImage} alt="About" /> About</li>
+                <li><img src={aboutImage} alt="History" /> History</li>
+                <li><img src={aboutImage} alt="Recommendations" /> Recommendations</li>
+                <li><img src={aboutImage} alt="Planner" /> Planner</li>
+                <li><img src={aboutImage} alt="Your Account" /> Your Account</li>
             </ul>
         </nav>
     );

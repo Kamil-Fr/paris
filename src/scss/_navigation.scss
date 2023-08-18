@@ -1,0 +1,25 @@
+.navigation {
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin-left: 1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 20px; // Adjust the height as needed
+        margin-right: 5px; // Add space between image and text
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}

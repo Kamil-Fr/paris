@@ -13,6 +13,7 @@ function App() {
         <>
             <div className="app">
                 <Headerr/>
+                <div className="title-divider"></div>
                 <Slider/>
                 <Recommendations/>
                 <Contact/>
