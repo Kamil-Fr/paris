@@ -22,7 +22,7 @@ function Navigation() {
                 {NavigationItems.map((item, index) => {
                     return (
                         <li key={index}>
-                            <a className={item.clName}>{item.title}</a>
+                            <Link className={item.clName} to={item.url}>{item.title}</Link>
                         </li>
                     )
                 })}

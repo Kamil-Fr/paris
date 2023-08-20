@@ -1,14 +1,14 @@
 import Navigation from "./Navigation.jsx";
 
-function Contact () {
+function Postcards () {
     return(
         <>
             <Navigation />
-            <h1>This is Contact</h1>
+            <h1>This is Postcards</h1>
         </>
     )
 }
 
 
 
-export default Contact;
+export default Postcards;

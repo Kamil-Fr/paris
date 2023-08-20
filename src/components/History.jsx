@@ -1,14 +1,14 @@
 import Navigation from "./Navigation.jsx";
 
-function Contact () {
+function History () {
     return(
         <>
             <Navigation />
-            <h1>This is Contact</h1>
+            <h1>This is History</h1>
         </>
     )
 }
 
 
 
-export default Contact;
+export default History;

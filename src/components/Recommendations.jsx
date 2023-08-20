@@ -1,12 +1,14 @@
-import React from 'react';
-import '../scss/_recommendations.scss';
+import Navigation from "./Navigation.jsx";
 
-function Recommendations() {
-    return (
-        <section className="recommendations">
-            {/* Section content */}
-        </section>
-    );
+function Recommendations () {
+    return(
+        <>
+            <Navigation />
+            <h1>This is Recommendations</h1>
+        </>
+    )
 }
+
+
 
 export default Recommendations;
