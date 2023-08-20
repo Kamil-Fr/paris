@@ -1,5 +1,6 @@
 import Navigation from "../components/Navigation.jsx";
 import MainView from "../components/MainView.jsx";
+import PopularPlaces from "../components/PopularPlaces.jsx";
 /*import MainImg from "../images/MainImg.jpg"*/
 
 function Home() {
@@ -15,7 +16,7 @@ function Home() {
             url="/"
             btnMainView="show"
             />
-
+            <PopularPlaces/>
         </>
     )
 }
