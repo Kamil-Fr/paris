@@ -1,9 +1,77 @@
-/*
 .footer {
-  background-color: #333;
+  background: black;
   color: white;
-  padding: 1rem;
-  text-align: center;
+  padding: 4rem 6rem;
+}
 
-  !* Add styles *!
-}*/
+.top-footer {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  }
+
+.top-footer h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  }
+
+.top-footer p {
+  padding: .4rem 0 .4rem 0;
+  font-size: 1.1rem;
+}
+
+.top-footer a {
+  color: white;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.top-footer a:hover {
+  color: lightseagreen;
+}
+
+.bottom-footer {
+  padding-top: 2rem;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bottom-footer div {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-footer h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1rem 0 .8rem 0;
+
+}
+
+.bottom-footer a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: .4rem;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 850px) {
+  footer{
+    padding: 4rem 2rem;
+  }
+
+  .footer i {
+    margin: 1rem 1rem 0 0;
+  }
+.top-footer p {
+  padding-bottom: 1rem;
+}
+  .bottom-footer {
+    width: 50%;
+  }
+
+}
