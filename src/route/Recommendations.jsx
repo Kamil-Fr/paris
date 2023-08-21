@@ -1,6 +1,10 @@
 import Navigation from "../components/Navigation.jsx";
 import MainView from "../components/MainView.jsx";
 import RecommendationsImg from "../images/RecommendationsImg.jpg";
+import Footer from "../components/Footer.jsx";
+import PopularPlacesData from "../data/PopularPlacesData.jsx";
+import MyPlaces from "../components/MyPlaces.jsx";
+import MyPlacesData from "../data/MyPlacesData.jsx";
 
 function Recommendations () {
     return(
@@ -12,6 +16,9 @@ function Recommendations () {
                 title="Recommendations"
                 btnMainView="noshow"
             />
+            <PopularPlacesData/>
+            <MyPlacesData/>
+            <Footer/>
         </>
     )
 }

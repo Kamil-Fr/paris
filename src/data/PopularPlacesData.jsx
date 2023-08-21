@@ -1,5 +1,5 @@
 import "../scss/_popularPlaces.scss"
-import PopularPlaces from "../data/PopularPlaces.jsx";
+import PopularPlaces from "../components/PopularPlaces.jsx";
 import MainImg from "../images/MainImg.jpg"
 import HistoryImg from "../images/HistoryImg.webp";
 

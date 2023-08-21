@@ -1,7 +1,8 @@
 import Navigation from "../components/Navigation.jsx";
 import MainView from "../components/MainView.jsx";
 import MyPlacesData from "../data/MyPlacesData.jsx";
-import PopularPlaces from "../components/PopularPlaces.jsx";
+import PopularPlacesData from "../data/PopularPlacesData.jsx";
+import Footer from "../components/Footer.jsx";
 /*import MainImg from "../images/MainImg.jpg"*/
 
 function Home() {
@@ -17,9 +18,10 @@ function Home() {
             url="/"
             btnMainView="show"
             />
+            <PopularPlacesData/>
             <MyPlacesData/>
-            <PopularPlaces/>
 
+            <Footer/>
         </>
     )
 }
