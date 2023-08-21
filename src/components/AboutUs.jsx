@@ -1,4 +1,4 @@
-import "../scss/_aboutus.scss"
+import "../scss/_aboutUs.scss"
 
 function AboutUs() {
 return (
