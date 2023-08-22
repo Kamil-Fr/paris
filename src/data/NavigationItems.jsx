@@ -33,6 +33,6 @@ export const NavigationItems = [
     {
         title : "My Account",
         url : "/myaccount",
-        clName : "nav-links-account",
+        clName : "nav-links account",
     },
 ]

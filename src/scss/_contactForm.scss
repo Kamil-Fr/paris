@@ -1,7 +1,14 @@
+@import "variables";
+
 .contact-form {
   margin: 4rem 6rem;
   color: gray;
   }
+
+.contact-form h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
 
 .contact-form form {
   padding-top: 3rem;
@@ -17,6 +24,9 @@
   margin-bottom: 2rem;
   border-radius: .3rem;
   border: 1px solid slategray;
+  font-family: $font-family-main;
+  font-weight: bold;
+  font-size: 0.8rem;
 }
 
 .contact-form textarea {
@@ -24,6 +34,9 @@
   margin-bottom: 2rem;
   border-radius: .3rem;
   border: 1px solid slategray;
+  font-family: $font-family-main;
+  font-weight: bold;
+  font-size: 0.8rem;
 }
 
 .contact-form button {

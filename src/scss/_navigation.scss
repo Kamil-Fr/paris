@@ -46,11 +46,11 @@
   transition: all 0.2s ease-in-out;
 }
 
-.nav-links-account {
-  display: none;
-}
+/*.nav-links */.account {
+  //display: none;
+/*}
 
-button {
+button {*/
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
   font-size: 1.2rem;
@@ -59,9 +59,10 @@ button {
   border: none;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  background-color: lightblue;
 }
-
-button:hover {
+/*.nav-links */.account:hover{
+  /*button:hover {*/
   background-color: cornflowerblue;
   color: white;
 }

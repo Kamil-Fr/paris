@@ -24,9 +24,10 @@ function Navigation() {
                         <li key={index}>
                             <Link className={item.clName} to={item.url}>{item.title}</Link>
                         </li>
+
                     )
-                })}
-                <button>My Account</button>
+                                        })}
+                {/*<button>My Account</button>*/}
             </ul>
         </nav>
     );

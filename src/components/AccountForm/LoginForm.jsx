@@ -1,11 +1,11 @@
 /*
 import { useState } from 'react';
 import '/src/scss/_formInput.scss';
-import FormInput from './FormInput.jsx';
+import LoginFormInput from './LoginFormInput.jsx';
 import SuccessSign from './SuccessSign.jsx';
-import MainImg from "/src/images/MainImg.jpg"
+import ContactIMG from "/src/images/ContactImg.webp"
 
-const FormSignup = () => {
+const LoginForm = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);
 
     function submitForm() {
@@ -16,10 +16,10 @@ const FormSignup = () => {
             <div className='form-container'>
                 <span className='close-btn'>×</span>
                 <div className='form-content-left'>
-                    <img src={MainImg} alt='spaceship' />
+                    <img src={ContactIMG} alt='spaceship' />
                 </div>
                 {!isSubmitted ? (
-                    <FormInput submitForm={submitForm} />
+                    <LoginFormInput submitForm={submitForm} />
                 ) : (
                     <SuccessSign />
                 )}
@@ -28,24 +28,24 @@ const FormSignup = () => {
     );
 };
 
-export default FormSignup;*/
+export default LoginForm;*/
 
-import React from 'react';
+
 import '/src/scss/_formInput.scss';
-import FormInput from './FormInput.jsx';
+import LoginFormInput from './LoginFormInput.jsx';
 import SuccessSign from './SuccessSign.jsx';
-import MainImg from "/src/images/MainImg.jpg"
+import ContactIMG from "/src/images/ContactImg.webp"
 
-const FormSignup = ({ isSubmitted, onFormSwitch }) => {
+const LoginForm = ({ isSubmitted, onFormSwitch }) => {
     return (
         <>
             <div className='form-container'>
                 <span className='close-btn'>×</span>
                 <div className='form-content-left'>
-                    <img src={MainImg} alt='spaceship' />
+                    <img src={ContactIMG} alt='spaceship' />
                 </div>
                 {!isSubmitted ? (
-                    <FormInput onSwitchForm={onFormSwitch} />
+                    <LoginFormInput onSwitchForm={onFormSwitch} />
                 ) : (
                     <SuccessSign />
                 )}
@@ -54,4 +54,4 @@ const FormSignup = ({ isSubmitted, onFormSwitch }) => {
     );
 };
 
-export default FormSignup;
+export default LoginForm;

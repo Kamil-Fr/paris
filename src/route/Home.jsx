@@ -3,6 +3,9 @@ import MainView from "../components/MainView.jsx";
 import MyPlacesData from "../data/MyPlacesData.jsx";
 import PopularPlacesData from "../data/PopularPlacesData.jsx";
 import Footer from "../components/Footer.jsx";
+import FormSignup from "../components/AccountForm/FormSignup.jsx";
+
+
 /*import MainImg from "../images/MainImg.jpg"*/
 
 function Home() {
@@ -20,8 +23,8 @@ function Home() {
             />
             <PopularPlacesData/>
             <MyPlacesData/>
-
-            <Footer/>
+            <FormSignup/>
+                        <Footer/>
         </>
     )
 }
