@@ -1,8 +1,9 @@
 import Navigation from "../components/Navigation.jsx";
-import ContactImg from "../images/ContactImg.webp";
+import Five from "../images/Five.jpg";
 import MainView from "../components/MainView.jsx";
 import Footer from "../components/Footer.jsx";
 import ContactForm from "../components/ContactForm.jsx";
+
 
 function Contact () {
     return(
@@ -10,9 +11,10 @@ function Contact () {
             <Navigation />
             <MainView
                 clName="mainView-next"
-                mainImg={ContactImg}
+                mainImg={Five}
                 title="Contact"
                 btnMainView="noshow"
+                imgMainView="imgMainView-next"
             />
             <ContactForm/>
             <Footer/>

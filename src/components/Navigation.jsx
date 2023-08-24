@@ -1,9 +1,9 @@
-import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import {useState} from "react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faBars, faTimes} from "@fortawesome/free-solid-svg-icons";
 import '../scss/_navigation.scss';
-import { NavigationItems } from "../data/NavigationItems.jsx";
-import { Link } from "react-router-dom";
+import {NavigationItems} from "../data/NavigationItems.jsx";
+import {Link} from "react-router-dom";
 
 function Navigation() {
     const [menuClicked, setMenuClicked] = useState(false)
@@ -16,7 +16,7 @@ function Navigation() {
         <nav className="header">
             <h1 className="header-logo">Paris visit</h1>
             <div className={`menu-icon`} onClick={toggleMenu}>
-                <FontAwesomeIcon icon={menuClicked ? faTimes : faBars} />
+                <FontAwesomeIcon icon={menuClicked ? faTimes : faBars}/>
             </div>
             <ul className={`navigation ${menuClicked ? 'navigation active' : 'navigation'}`}>
                 {NavigationItems.map((item, index) => {
@@ -26,8 +26,7 @@ function Navigation() {
                         </li>
 
                     )
-                                        })}
-                {/*<button>My Account</button>*/}
+                })}
             </ul>
         </nav>
     );

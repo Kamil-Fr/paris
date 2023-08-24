@@ -90,6 +90,7 @@ const MyAccount = () => {
                 mainImg={HistoryImg}
                 title="My Account"
                 btnMainView="noshow"
+                imgMainView="imgMainView-next"
             />
             {currentForm === 'login' ? (
                 <LoginForm

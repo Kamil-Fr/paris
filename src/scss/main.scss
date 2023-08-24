@@ -8,15 +8,22 @@
 @import "history";
 @import "navigation";
 @import "mainView";
-@import "postcards";
 @import "myPlaces";
 @import "popularPlaces";
 @import "formInput";
 @import "planner";
 
 
+
 * {
   box-sizing: border-box;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(255, 255, 255, .95)),url('/src/images/Six.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 .app {
   font-family: $font-family-main;

@@ -4,7 +4,7 @@ function MainView(props) {
     return (
         <>
            <div className="{props.clName}">
-               <img src={props.mainImg} alt="MainImg"/>
+               <img src={props.mainImg} alt="MainImg" className={props.imgMainView}/>
 
                <div className="mainView-text">
                    <h1>{props.title}</h1>

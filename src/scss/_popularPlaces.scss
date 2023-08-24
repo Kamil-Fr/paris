@@ -5,6 +5,11 @@
 
 .popularPlaces h1 {
   font-size: 3rem;
+  font-weight: bold;
+}
+
+.Sec-title {
+  font-size: 2rem;
 }
 
 .placesCard {
@@ -12,19 +17,22 @@
   display: flex;
 justify-content: space-between;
   flex-wrap: wrap;
-}
+   }
 
 .first-popular {
   width: 32%;
   text-align: start;
-  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.11);
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.2);
   border-radius: 7px;
   cursor: pointer;
   padding: 1rem .8rem;
+  background-color: rgba(0,0,0,0.07);
+  margin-bottom: 2rem;
+
 }
 
 .first-popular-image {
-  height: 200px;
+  height: 500px;
   overflow: hidden;
   border-radius: 7px;
 }
@@ -41,8 +49,14 @@ justify-content: space-between;
 }
 
 .first-popular h4{
-  font-size: 1.3rem;
+  font-size: 2rem;
   padding: .9rem 0 .2rem 0;
+  font-weight: bold;
+  color: dimgray;
+}
+
+.first-popular p {
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 850px) {

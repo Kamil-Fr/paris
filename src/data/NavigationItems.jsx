@@ -20,9 +20,14 @@ export const NavigationItems = [
         clName : "nav-links",
     },
 
-       {
+    /*   {
         title : "Postcards",
         url : "/postcards",
+        clName : "nav-links",
+    },*/
+    {
+        title : "Planner",
+        url : "/planner",
         clName : "nav-links",
     },
     {
