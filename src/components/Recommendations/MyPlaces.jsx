@@ -1,4 +1,4 @@
-import "../scss/_myPlaces.scss";
+import "../../scss/_myPlaces.scss";
 
 
 function MyPlaces(props) {

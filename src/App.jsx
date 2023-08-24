@@ -9,6 +9,7 @@ import Contact from "./route/Contact.jsx";
 import MyAccount from "./route/MyAccount.jsx";
 
 
+
 function App() {
 
     return (
@@ -22,6 +23,7 @@ function App() {
                     <Route path="/postcards" element={<Postcards/>}/>
                     <Route path="/contact" element={<Contact/>}/>
                     <Route path="/myaccount" element={<MyAccount/>} />
+
                 </Routes>
             </div>
         </>

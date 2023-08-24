@@ -5,8 +5,10 @@ import Footer from "../components/Footer.jsx";
 import PopularPlacesData from "../data/PopularPlacesData.jsx";
 import MyPlacesData from "../data/MyPlacesData.jsx";
 
+
 function Recommendations () {
     return(
+
         <>
             <Navigation />
             <MainView
@@ -19,8 +21,9 @@ function Recommendations () {
             <MyPlacesData/>
             <Footer/>
         </>
-    )
-}
+
+)}
+
 
 
 

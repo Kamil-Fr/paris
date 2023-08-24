@@ -3,7 +3,8 @@ import MainView from "../components/MainView.jsx";
 import MyPlacesData from "../data/MyPlacesData.jsx";
 import PopularPlacesData from "../data/PopularPlacesData.jsx";
 import Footer from "../components/Footer.jsx";
-import FormSignup from "../components/AccountForm/FormSignup.jsx";
+import Recommendations from "./Recommendations.jsx";
+
 
 
 /*import MainImg from "../images/MainImg.jpg"*/
@@ -18,13 +19,14 @@ function Home() {
             title="Paris visit"
             text="It is time to plan a trip!"
             btnText="Plan"
-            url="/"
+            url="#/myaccount"
             btnMainView="show"
+
             />
-            <PopularPlacesData/>
+           {/* <PopularPlacesData />
             <MyPlacesData/>
-            <FormSignup/>
-                        <Footer/>
+
+                        <Footer/>*/}
         </>
     )
 }

@@ -11,10 +11,10 @@ function Footer() {
                     <p>Plan your fabulous trip!</p>
                 </div>
                 <div>
-                    <a href="/">
+                    <a href="https://www.facebook.com/">
                         <FontAwesomeIcon icon={faFacebookSquare}/>
                     </a>
-                    <a href="/">
+                    <a href="https://www.instagram.com/">
                         <FontAwesomeIcon icon={faInstagramSquare}/>
                     </a>
                                   </div>

@@ -1,12 +1,12 @@
 import "../scss/_popularPlaces.scss"
-import PopularPlaces from "../components/PopularPlaces.jsx";
+import PopularPlaces from "../components/Recommendations/PopularPlaces.jsx";
 import MainImg from "../images/MainImg.jpg"
 import HistoryImg from "../images/HistoryImg.webp";
 
 function PopularPlacesData() {
     return (
-        <div className="popularPlaces">
-            <h1>Popular Places</h1>
+        <div className="popularPlaces" >
+            <h1 >Popular Places</h1>
             <p>You can discover popular places in Paris!</p>
             <div className="placesCard">
                 <PopularPlaces

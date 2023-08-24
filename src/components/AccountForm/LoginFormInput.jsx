@@ -1,12 +1,14 @@
 
-import validate from '../AccountForm/Validate.jsx';
+import Validate from '../AccountForm/Validate.jsx';
 import useForm from '../AccountForm/UseForm.jsx';
 import '/src/scss/_formInput.scss';
+
+
 
 function LoginFormInput ( {onSwitchForm} ) {
     const {handleChange, handleSubmit, values, errors} = useForm(
         onSwitchForm,
-        validate
+        Validate
     );
 
 
@@ -29,7 +31,7 @@ function LoginFormInput ( {onSwitchForm} ) {
                     />
                     {errors.username && <p>{errors.username}</p>}
                 </div>
-               {/* <div className='form-inputs'>
+              {/*  <div className='form-inputs'>
                     <label className='form-label'>Email</label>
                     <input
                         className='form-input'
@@ -65,9 +67,7 @@ function LoginFormInput ( {onSwitchForm} ) {
                     />
                     {errors.password2 && <p>{errors.password2}</p>}
                 </div>*/}
-                <button className='form-input-btn' type='submit'>
-                    Log in
-                </button>
+                <button className='form-input-btn' type='submit'>Log in</button>
                 <span className='form-input-login'>
           Do not have an account yet? Register<button onClick={() => onSwitchForm ('register')}>here</button>
         </span>

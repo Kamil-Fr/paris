@@ -30,7 +30,6 @@ const FormSignup = () => {
 
 export default FormSignup;*/
 
-import React from 'react';
 import '/src/scss/_formInput.scss';
 import FormInput from './FormInput.jsx';
 import SuccessSign from './SuccessSign.jsx';

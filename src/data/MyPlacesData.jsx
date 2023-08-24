@@ -1,14 +1,14 @@
 import "../scss/_myPlaces.scss"
 import MainImg from "../images/MainImg.jpg"
 import HistoryImg from "../images/HistoryImg.webp";
-import MyPlaces from "../components/MyPlaces.jsx"
+import MyPlaces from "../components/Recommendations/MyPlaces.jsx"
 
 function MyPlacesData() {
     return (
 
         <div>
             <div className="myPlaces">
-                <h1>Our places recommendations </h1>
+                <h1 >Our places recommendations </h1>
                 <p>Your first trip? Let's know popular places in Paris!</p>
             </div>
             <MyPlaces

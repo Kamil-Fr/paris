@@ -3,6 +3,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-content: center;
   align-items: center;
   background-color: white;
   padding: 0 30px;
@@ -21,6 +22,7 @@
   font-size: 2rem;
   font-family: 'Rochester', cursive;
   cursor: pointer;
+
 }
 
 .navigation {
@@ -29,14 +31,16 @@
   grid-gap: 10px;
   list-style: none;
   align-items: center;
+  margin-top: 1%;
 }
 
 .nav-links {
   text-decoration: none;
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 600;
   padding: 0.7rem 1rem;
+  text-align: center;
 }
 
 .nav-links:hover {
@@ -51,7 +55,7 @@
 /*}
 
 button {*/
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 1rem;
   border-radius: 0.3rem;
   font-size: 1.2rem;
   font-family: $font-family-main;

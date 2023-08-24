@@ -1,4 +1,4 @@
-import "../scss/_popularPlaces.scss"
+import "../../scss/_popularPlaces.scss"
 
 function PopularPlaces(props) {
     return (
