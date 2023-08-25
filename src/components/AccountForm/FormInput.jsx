@@ -1,11 +1,11 @@
-
 import validate from '../AccountForm/Validate.jsx';
 import useForm from '../AccountForm/UseForm.jsx';
 import '/src/scss/_formInput.scss';
 
-function FormInput ({onSwitchForm} ) {
+
+function FormInput ({ submitForm }) {
     const {handleChange, handleSubmit, values, errors} = useForm(
-        onSwitchForm,
+        submitForm,
         validate
     );
 
@@ -68,7 +68,7 @@ function FormInput ({onSwitchForm} ) {
                     Sign up
                 </button>
                 <span className='form-input-login'>
-          Already have an account? Login<button onClick={() => onSwitchForm('login')}>here</button>
+          Already have an account? Log in <a href="#">here</a>
         </span>
             </form>
         </div>

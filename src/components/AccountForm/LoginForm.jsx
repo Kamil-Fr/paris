@@ -122,15 +122,15 @@ export default LoginForm;*/
 import '/src/scss/_formInput.scss';
 import LoginFormInput from './LoginFormInput.jsx';
 import SuccessSign from './SuccessSign.jsx';
-import ContactIMG from "/src/images/ContactImg.webp"
+import MainImg from "/src/images/MainImg.jpg"
 
 const LoginForm = ({ isSubmitted, onFormSwitch }) => {
     return (
         <>
             <div className='form-container'>
-                <span className='close-btn'>×</span>
-                <div className='form-content-left'>
-                    <img src={ContactIMG} alt='spaceship' />
+
+                                <div className='form-content-left form-img-2'>
+                    <img src={MainImg} alt='spaceship' />
                 </div>
                 {!isSubmitted ? (
                     <LoginFormInput onSwitchForm={onFormSwitch} />

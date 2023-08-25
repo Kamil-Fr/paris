@@ -6,7 +6,7 @@ import HistoryImg from "../images/HistoryImg.webp";
 import FormSignup from "../components/AccountForm/FormSignup.jsx";
 import LoginForm from "../components/AccountForm/LoginForm.jsx";
 
-const LoginOrSign = () => {
+/!*const LoginOrSign = () => {
     const [currentForm, setCurrentForm] = useState('login');
     const toggleForm = (formName) => {
         setCurrentForm(formName);
@@ -36,7 +36,7 @@ function MyAccount () {
 
 
 
-export default MyAccount;
+export default MyAccount;*!/
 
 
 const MyAccount = () => {
@@ -65,7 +65,7 @@ const MyAccount = () => {
 
 export default MyAccount;*/
 
-import { useState } from "react";
+import {useState} from "react";
 import Navigation from "../components/Navigation.jsx";
 import MainView from "../components/MainView.jsx";
 import Footer from "../components/Footer.jsx";
