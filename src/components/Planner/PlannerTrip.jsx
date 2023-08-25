@@ -139,17 +139,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import '/src/scss/_planner.scss';
 
-function PlannerTrip() {
+function PlannerTrip(props) {
 
-    // Tasks (ToDo List) State
+
     const [toDo, setToDo] = useState([]);
 
-    // Temp State
+
     const [newTask, setNewTask] = useState('');
     const [updateData, setUpdateData] = useState('');
 
-    // Add task
-    ///////////////////////////
+
     const addTask = () => {
         if(newTask) {
             let num = toDo.length + 1;
@@ -159,15 +158,13 @@ function PlannerTrip() {
         }
     }
 
-    // Delete task
-    ///////////////////////////
+
     const deleteTask = (id) => {
         let newTasks = toDo.filter( task => task.id !== id)
         setToDo(newTasks);
     }
 
-    // Mark task as done or completed
-    ///////////////////////////
+
     const markDone = (id) => {
         let newTask = toDo.map( task => {
             if( task.id === id ) {
@@ -178,14 +175,12 @@ function PlannerTrip() {
         setToDo(newTask);
     }
 
-    // Cancel update
-    ///////////////////////////
+
     const cancelUpdate = () => {
         setUpdateData('');
     }
 
-    // Change task for update
-    ///////////////////////////
+
     const changeTask = (e) => {
         let newEntry = {
             id: updateData.id,
@@ -195,8 +190,7 @@ function PlannerTrip() {
         setUpdateData(newEntry);
     }
 
-    // Update task
-    ///////////////////////////
+
     const updateTask = () => {
         let filterRecords = [...toDo].filter( task => task.id !== updateData.id );
         let updatedObject = [...filterRecords, updateData]
@@ -208,7 +202,7 @@ function PlannerTrip() {
         <div className="container Planner">
 
             <br /><br />
-            <h2>Let's plan!</h2>
+            <h2>Let's plan! Day {props.numerListy}</h2>
             <br /><br />
 
             {updateData && updateData ? (
@@ -226,9 +220,8 @@ function PlannerTrip() {
                 />
             )}
 
-            {/* Display ToDos */}
 
-            {toDo && toDo.length ? '' : 'No Tasks...'}
+            {toDo && toDo.length ? '' : 'No Places to visit...'}
 
             <ToVisit
                 toDo={toDo}

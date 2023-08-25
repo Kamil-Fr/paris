@@ -1,5 +1,3 @@
-
-
 function UserAccount() {
     return (
         <div className="about-container">

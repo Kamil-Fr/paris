@@ -191,9 +191,9 @@
   text-align: center;
 }
 
-.form-input-login button {
+.form-input-login a {
   text-decoration: none;
-  color: cornflowerblue;
+  color: white;
   font-weight: bold;
   cursor: pointer;
   border: none;
@@ -201,9 +201,20 @@
   font-size: 0.8rem;
   font-family: $font-family-main;
 }
+
+
 @media screen and (max-width: 850px) {
   .form-container {
     margin: 4rem 2rem;
+  }
+
+
+
+
+
+    .form-content-right{
+    width: 200%;
+    border-radius: 10px ;
   }
 }
 

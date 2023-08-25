@@ -73,10 +73,8 @@ import HistoryImg from "../images/HistoryImg.webp";
 import LoginForm from "../components/AccountForm/LoginForm.jsx";
 import FormSignup from "../components/AccountForm/FormSignup.jsx";
 
-
 const MyAccount = () => {
     const [currentForm, setCurrentForm] = useState('login');
-
 
     const toggleForm = (formName) => {
         setCurrentForm(formName);
@@ -103,9 +101,6 @@ const MyAccount = () => {
                 />
 
            )}
-
-
-
             <Footer />
         </>
     );

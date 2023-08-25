@@ -14,7 +14,7 @@ const AddPoint = ({ newTask, setNewTask, addTask }) => {
                     <button
                         onClick={addTask}
                         className="btn btn-lg btn-success"
-                    >Add Task</button>
+                    >Add</button>
                 </div>
             </div>
             <br />

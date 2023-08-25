@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "name": "Louvre",
+      "rating": "5",
+      "id": 2
+    },
+    {
+      "name": "Louvre",
+      "rating": "5",
+      "id": 3
+    },
+    {
+      "name": "Louvre",
+      "rating": "5",
+      "id": 4
+    },
+    {
+      "name": "Louvre",
+      "rating": "5",
+      "id": 5
+    },
+    {
+      "name": "Louvre",
+      "rating": "5",
+      "id": 6
+    },
+    {
+      "name": "Notre-Dame",
+      "rating": "5",
+      "id": 7
+    },
+    {
+      "name": "Notre-Dame",
+      "rating": "5",
+      "id": 8
+    },
+    {
+      "name": "Pantheon",
+      "rating": 5,
+      "id": 9
+    },
+    {
+      "name": "Pantheon",
+      "rating": 5,
+      "id": 10
+    },
+    {
+      "name": "Pantheon",
+      "rating": 5,
+      "id": 11
+    },
+    {
+      "name": "Pantheon",
+      "rating": 1,
+      "id": 12
+    },
+    {
+      "name": "Pantheon",
+      "rating": 1,
+      "id": 13
+    },
+    {
+      "name": "Notre-Dame",
+      "rating": 5,
+      "id": 14
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

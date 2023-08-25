@@ -1,8 +1,6 @@
-
 import Validate from '../AccountForm/Validate.jsx';
 import useForm from '../AccountForm/UseForm.jsx';
 import '/src/scss/_formInput.scss';
-
 
 
 function LoginFormInput ( {onSwitchForm} ) {
@@ -31,18 +29,7 @@ function LoginFormInput ( {onSwitchForm} ) {
                     />
                     {errors.username && <p>{errors.username}</p>}
                 </div>
-              {/*  <div className='form-inputs'>
-                    <label className='form-label'>Email</label>
-                    <input
-                        className='form-input'
-                        type='email'
-                        name='email'
-                        placeholder='Enter your email'
-                        value={values.email}
-                        onChange={handleChange}
-                    />
-                    {errors.email && <p>{errors.email}</p>}
-                </div>*/}
+
                 <div className='form-inputs'>
                     <label className='form-label'>Password</label>
                     <input
@@ -55,21 +42,10 @@ function LoginFormInput ( {onSwitchForm} ) {
                     />
                     {errors.password && <p>{errors.password}</p>}
                 </div>
-               {/* <div className='form-inputs'>
-                    <label className='form-label'>Confirm Password</label>
-                    <input
-                        className='form-input'
-                        type='password'
-                        name='password2'
-                        placeholder='Confirm your password'
-                        value={values.password2}
-                        onChange={handleChange}
-                    />
-                    {errors.password2 && <p>{errors.password2}</p>}
-                </div>*/}
+
                 <button className='form-input-btn' type='submit'>Log in</button>
                 <span className='form-input-login'>
-          Do not have an account yet? Register<button onClick={() => onSwitchForm ('register')}>here</button>
+          Do not have an account yet? Register <a onClick={() => onSwitchForm('register')}>here</a>
         </span>
             </form>
         </div>

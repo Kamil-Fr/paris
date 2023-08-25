@@ -1,5 +1,4 @@
 import "../scss/_myPlaces.scss"
-import MainImg from "../images/MainImg.jpg"
 import Coupole1 from "../images/Coupole1.jpg";
 import Coupole2 from "../images/Coupole2.jpg";
 import MyPlaces from "../components/Recommendations/MyPlaces.jsx";

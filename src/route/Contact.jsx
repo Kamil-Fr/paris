@@ -4,7 +4,6 @@ import MainView from "../components/MainView.jsx";
 import Footer from "../components/Footer.jsx";
 import ContactForm from "../components/ContactForm.jsx";
 
-
 function Contact () {
     return(
         <>
@@ -21,7 +20,5 @@ function Contact () {
         </>
     )
 }
-
-
 
 export default Contact;

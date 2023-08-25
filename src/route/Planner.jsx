@@ -2,7 +2,8 @@ import Navigation from "../components/Navigation.jsx";
 import MainView from "../components/MainView.jsx";
 import PostcardsImg from "../images/PostcardsImg.webp";
 import Footer from "../components/Footer.jsx";
-import PlannerTrip from "../components/Planner/PlannerTrip.jsx";
+import PlannerTripS from "../components/Planner/PlannerTripS.jsx";
+import Rating from "../components/Planner/Rating.jsx";
 
 
 function Planner() {
@@ -16,11 +17,11 @@ function Planner() {
                 btnMainView="noshow"
                 imgMainView="imgMainView-next"
             />
-            <PlannerTrip/>
+            <PlannerTripS/>
+            <Rating/>
             <Footer/>
         </>
     )
 }
-
 
 export default Planner;
