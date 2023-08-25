@@ -22,9 +22,9 @@ class Rating extends Component {
             return;
         }
 
-        const parsedRating = parseInt(rating, 10); // Parsowanie do liczby dziesiętnej
+        const parsedRating = parseInt(rating, 10);
 
-        const data = {name, rating: parsedRating}; // Użyj sparsowanej oceny
+        const data = {name, rating: parsedRating};
 
         fetch('http://localhost:3000/comments', {
             method: 'POST',

@@ -19,7 +19,7 @@ function PlannerTripS() {
 
     return (
         <div className="PlannerTripS">
-            <h1>Days oy Your trip!</h1>
+            <h1>Days of Your trip!</h1>
             <div>
                 <label htmlFor="liczbaZadan" >Number of day's trip: </label>
                 <input className="form-control-lg-2"

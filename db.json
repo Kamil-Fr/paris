@@ -76,6 +76,21 @@
       "name": "Notre-Dame",
       "rating": 5,
       "id": 14
+    },
+    {
+      "name": "Louvre",
+      "rating": 5,
+      "id": 15
+    },
+    {
+      "name": "Opera",
+      "rating": 5,
+      "id": 16
+    },
+    {
+      "name": "Opera",
+      "rating": 4,
+      "id": 17
     }
   ],
   "profile": {
