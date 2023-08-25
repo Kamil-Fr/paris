@@ -12,7 +12,7 @@ function Planner() {
             <MainView
                 clName="mainView-next"
                 mainImg={PostcardsImg}
-                title="PlannerTrip"
+                title="Planner Trip"
                 btnMainView="noshow"
                 imgMainView="imgMainView-next"
             />

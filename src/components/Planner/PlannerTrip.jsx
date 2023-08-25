@@ -208,7 +208,7 @@ function PlannerTrip() {
         <div className="container Planner">
 
             <br /><br />
-            <h2>Trip PlannerTrip</h2>
+            <h2>Let's plan!</h2>
             <br /><br />
 
             {updateData && updateData ? (

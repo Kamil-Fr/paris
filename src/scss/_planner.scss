@@ -1,9 +1,15 @@
 .Planner {
   text-align: center;
+  color: dimgray;
+}
+
+.Planner h2 {
+  font-weight: bold;
+
 }
 
 .taskBg {
-  background-color: #555;
+  background-color: lavender;
   border-radius: 6px;
   margin-bottom: 20px;
   padding: 10px 140px 10px 15px;
@@ -51,17 +57,30 @@
 
 .taskBg .iconsWrap span {
   display: inline-block;
-  margin: 0px 10px 0 10px;
+  margin: 0 10px 0 10px;
   cursor: pointer;
-  color: #00ff89;
+  color: palevioletred;
 }
 
 .taskBg .iconsWrap span:hover {
-  color: yellow;
+  color: lightpink;
 }
 
 .mr-20 {
   margin-right: 20px;
+}
+
+.btn-warning {
+  background-color: lightyellow;
+  border-color: lightyellow;
+  font-weight: bold;
+  color: dimgray;
+}
+
+.btn-success {
+  background-color: darkseagreen;
+  border-color: darkseagreen;
+  font-weight: bold;
 }
 
 
