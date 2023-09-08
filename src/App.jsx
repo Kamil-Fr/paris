@@ -10,9 +10,7 @@ import MyAccount from "./route/MyAccount.jsx";
 
 
 function App() {
-
     return (
-        <>
             <div className="app">
                 <Routes>
                     <Route path="/" element={<Home/>}/>
@@ -25,7 +23,6 @@ function App() {
 
                 </Routes>
             </div>
-        </>
     )
 }
 

@@ -139,16 +139,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import '/src/scss/_planner.scss';
 
-function PlannerTrip(props) {
-
-
+function PlannerTrip({numerListy}) {
     const [toDo, setToDo] = useState([]);
-
-
     const [newTask, setNewTask] = useState('');
     const [updateData, setUpdateData] = useState('');
-
-
     const addTask = () => {
         if(newTask) {
             let num = toDo.length + 1;
@@ -157,7 +151,6 @@ function PlannerTrip(props) {
             setNewTask('');
         }
     }
-
 
     const deleteTask = (id) => {
         let newTasks = toDo.filter( task => task.id !== id)
@@ -202,7 +195,7 @@ function PlannerTrip(props) {
         <div className="container Planner">
 
             <br /><br />
-            <h2>Let's plan! Day {props.numerListy}</h2>
+            <h2>Let's plan! Day {numerListy}</h2>
             <br /><br />
 
             {updateData && updateData ? (

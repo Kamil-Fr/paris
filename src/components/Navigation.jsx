@@ -9,7 +9,7 @@ function Navigation() {
     const [menuClicked, setMenuClicked] = useState(false)
 
     const toggleMenu = () => {
-        setMenuClicked(!menuClicked);
+        setMenuClicked(menuClicked=> !menuClicked);
     }
 
     return (
@@ -19,10 +19,10 @@ function Navigation() {
                 <FontAwesomeIcon icon={menuClicked ? faTimes : faBars}/>
             </div>
             <ul className={`navigation ${menuClicked ? 'navigation active' : 'navigation'}`}>
-                {NavigationItems.map((item, index) => {
+                {NavigationItems.map(({clName, url, title}) => {
                     return (
-                        <li key={index}>
-                            <Link className={item.clName} to={item.url}>{item.title}</Link>
+                        <li key={url}>
+                            <Link className={clName} to={url}>{title}</Link>
                         </li>
 
                     )
