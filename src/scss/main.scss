@@ -15,6 +15,8 @@
 
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 body {
@@ -22,9 +24,25 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
+  font-family: 'Roboto', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9f9f9; 
+  line-height: 1.6; 
+  margin: 0;
+  font-family: 'Poiret One', Arial, sans-serif;
 }
 .app {
   font-family: $font-family-main;
   text-align: center;
+}
+.container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 1rem; 
+}
+img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
 }
